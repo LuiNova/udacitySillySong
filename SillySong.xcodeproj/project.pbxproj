@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E266E4AA1E1383420007271B /* Silly Song.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silly Song.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E266E4AA1E1383420007271B /* SillySong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SillySong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E266E4AD1E1383420007271B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E266E4AF1E1383420007271B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E266E4B21E1383420007271B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E266E4B41E1383420007271B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E266E4B71E1383420007271B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E266E4B91E1383420007271B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E266E4BE1E1383430007271B /* Silly SongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E266E4BE1E1383430007271B /* SillySongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillySongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E266E4C21E1383430007271B /* Silly_SongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongTests.swift; sourceTree = "<group>"; };
 		E266E4C41E1383430007271B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E266E4C91E1383430007271B /* Silly SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E266E4C91E1383430007271B /* SillySongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillySongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E266E4CD1E1383430007271B /* Silly_SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongUITests.swift; sourceTree = "<group>"; };
 		E266E4CF1E1383430007271B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		E266E4A11E1383420007271B = {
 			isa = PBXGroup;
 			children = (
-				E266E4AC1E1383420007271B /* Silly Song */,
-				E266E4C11E1383430007271B /* Silly SongTests */,
-				E266E4CC1E1383430007271B /* Silly SongUITests */,
+				E266E4AC1E1383420007271B /* SillySong */,
+				E266E4C11E1383430007271B /* SillySongTests */,
+				E266E4CC1E1383430007271B /* SillySongUITests */,
 				E266E4AB1E1383420007271B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		E266E4AB1E1383420007271B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E266E4AA1E1383420007271B /* Silly Song.app */,
-				E266E4BE1E1383430007271B /* Silly SongTests.xctest */,
-				E266E4C91E1383430007271B /* Silly SongUITests.xctest */,
+				E266E4AA1E1383420007271B /* SillySong.app */,
+				E266E4BE1E1383430007271B /* SillySongTests.xctest */,
+				E266E4C91E1383430007271B /* SillySongUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E266E4AC1E1383420007271B /* Silly Song */ = {
+		E266E4AC1E1383420007271B /* SillySong */ = {
 			isa = PBXGroup;
 			children = (
 				E266E4AD1E1383420007271B /* AppDelegate.swift */,
@@ -104,33 +104,36 @@
 				E266E4B61E1383420007271B /* LaunchScreen.storyboard */,
 				E266E4B91E1383420007271B /* Info.plist */,
 			);
+			name = SillySong;
 			path = "Silly Song";
 			sourceTree = "<group>";
 		};
-		E266E4C11E1383430007271B /* Silly SongTests */ = {
+		E266E4C11E1383430007271B /* SillySongTests */ = {
 			isa = PBXGroup;
 			children = (
 				E266E4C21E1383430007271B /* Silly_SongTests.swift */,
 				E266E4C41E1383430007271B /* Info.plist */,
 			);
+			name = SillySongTests;
 			path = "Silly SongTests";
 			sourceTree = "<group>";
 		};
-		E266E4CC1E1383430007271B /* Silly SongUITests */ = {
+		E266E4CC1E1383430007271B /* SillySongUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E266E4CD1E1383430007271B /* Silly_SongUITests.swift */,
 				E266E4CF1E1383430007271B /* Info.plist */,
 			);
+			name = SillySongUITests;
 			path = "Silly SongUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E266E4A91E1383420007271B /* Silly Song */ = {
+		E266E4A91E1383420007271B /* SillySong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E266E4D21E1383430007271B /* Build configuration list for PBXNativeTarget "Silly Song" */;
+			buildConfigurationList = E266E4D21E1383430007271B /* Build configuration list for PBXNativeTarget "SillySong" */;
 			buildPhases = (
 				E266E4A61E1383420007271B /* Sources */,
 				E266E4A71E1383420007271B /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "Silly Song";
+			name = SillySong;
 			productName = "Silly Song";
-			productReference = E266E4AA1E1383420007271B /* Silly Song.app */;
+			productReference = E266E4AA1E1383420007271B /* SillySong.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E266E4BD1E1383430007271B /* Silly SongTests */ = {
+		E266E4BD1E1383430007271B /* SillySongTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E266E4D51E1383430007271B /* Build configuration list for PBXNativeTarget "Silly SongTests" */;
+			buildConfigurationList = E266E4D51E1383430007271B /* Build configuration list for PBXNativeTarget "SillySongTests" */;
 			buildPhases = (
 				E266E4BA1E1383430007271B /* Sources */,
 				E266E4BB1E1383430007271B /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				E266E4C01E1383430007271B /* PBXTargetDependency */,
 			);
-			name = "Silly SongTests";
+			name = SillySongTests;
 			productName = "Silly SongTests";
-			productReference = E266E4BE1E1383430007271B /* Silly SongTests.xctest */;
+			productReference = E266E4BE1E1383430007271B /* SillySongTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E266E4C81E1383430007271B /* Silly SongUITests */ = {
+		E266E4C81E1383430007271B /* SillySongUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E266E4D81E1383430007271B /* Build configuration list for PBXNativeTarget "Silly SongUITests" */;
+			buildConfigurationList = E266E4D81E1383430007271B /* Build configuration list for PBXNativeTarget "SillySongUITests" */;
 			buildPhases = (
 				E266E4C51E1383430007271B /* Sources */,
 				E266E4C61E1383430007271B /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				E266E4CB1E1383430007271B /* PBXTargetDependency */,
 			);
-			name = "Silly SongUITests";
+			name = SillySongUITests;
 			productName = "Silly SongUITests";
-			productReference = E266E4C91E1383430007271B /* Silly SongUITests.xctest */;
+			productReference = E266E4C91E1383430007271B /* SillySongUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E266E4A51E1383420007271B /* Build configuration list for PBXProject "Silly Song" */;
+			buildConfigurationList = E266E4A51E1383420007271B /* Build configuration list for PBXProject "SillySong" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E266E4A91E1383420007271B /* Silly Song */,
-				E266E4BD1E1383430007271B /* Silly SongTests */,
-				E266E4C81E1383430007271B /* Silly SongUITests */,
+				E266E4A91E1383420007271B /* SillySong */,
+				E266E4BD1E1383430007271B /* SillySongTests */,
+				E266E4C81E1383430007271B /* SillySongUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		E266E4C01E1383430007271B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E266E4A91E1383420007271B /* Silly Song */;
+			target = E266E4A91E1383420007271B /* SillySong */;
 			targetProxy = E266E4BF1E1383430007271B /* PBXContainerItemProxy */;
 		};
 		E266E4CB1E1383430007271B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E266E4A91E1383420007271B /* Silly Song */;
+			target = E266E4A91E1383420007271B /* SillySong */;
 			targetProxy = E266E4CA1E1383430007271B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luistorres.Silly-SongTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silly Song.app/Silly Song";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SillySong.app/SillySong";
 			};
 			name = Debug;
 		};
@@ -456,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luistorres.Silly-SongTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silly Song.app/Silly Song";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SillySong.app/SillySong";
 			};
 			name = Release;
 		};
@@ -489,7 +492,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E266E4A51E1383420007271B /* Build configuration list for PBXProject "Silly Song" */ = {
+		E266E4A51E1383420007271B /* Build configuration list for PBXProject "SillySong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E266E4D01E1383430007271B /* Debug */,
@@ -498,29 +501,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E266E4D21E1383430007271B /* Build configuration list for PBXNativeTarget "Silly Song" */ = {
+		E266E4D21E1383430007271B /* Build configuration list for PBXNativeTarget "SillySong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E266E4D31E1383430007271B /* Debug */,
 				E266E4D41E1383430007271B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E266E4D51E1383430007271B /* Build configuration list for PBXNativeTarget "Silly SongTests" */ = {
+		E266E4D51E1383430007271B /* Build configuration list for PBXNativeTarget "SillySongTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E266E4D61E1383430007271B /* Debug */,
 				E266E4D71E1383430007271B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E266E4D81E1383430007271B /* Build configuration list for PBXNativeTarget "Silly SongUITests" */ = {
+		E266E4D81E1383430007271B /* Build configuration list for PBXNativeTarget "SillySongUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E266E4D91E1383430007271B /* Debug */,
 				E266E4DA1E1383430007271B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

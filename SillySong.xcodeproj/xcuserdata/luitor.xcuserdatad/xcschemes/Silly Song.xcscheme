@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E266E4A91E1383420007271B"
-               BuildableName = "Silly Song.app"
-               BlueprintName = "Silly Song"
-               ReferencedContainer = "container:Silly Song.xcodeproj">
+               BuildableName = "SillySong.app"
+               BlueprintName = "SillySong"
+               ReferencedContainer = "container:SillySong.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E266E4BD1E1383430007271B"
-               BuildableName = "Silly SongTests.xctest"
-               BlueprintName = "Silly SongTests"
-               ReferencedContainer = "container:Silly Song.xcodeproj">
+               BuildableName = "SillySongTests.xctest"
+               BlueprintName = "SillySongTests"
+               ReferencedContainer = "container:SillySong.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E266E4C81E1383430007271B"
-               BuildableName = "Silly SongUITests.xctest"
-               BlueprintName = "Silly SongUITests"
-               ReferencedContainer = "container:Silly Song.xcodeproj">
+               BuildableName = "SillySongUITests.xctest"
+               BlueprintName = "SillySongUITests"
+               ReferencedContainer = "container:SillySong.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E266E4A91E1383420007271B"
-            BuildableName = "Silly Song.app"
-            BlueprintName = "Silly Song"
-            ReferencedContainer = "container:Silly Song.xcodeproj">
+            BuildableName = "SillySong.app"
+            BlueprintName = "SillySong"
+            ReferencedContainer = "container:SillySong.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E266E4A91E1383420007271B"
-            BuildableName = "Silly Song.app"
-            BlueprintName = "Silly Song"
-            ReferencedContainer = "container:Silly Song.xcodeproj">
+            BuildableName = "SillySong.app"
+            BlueprintName = "SillySong"
+            ReferencedContainer = "container:SillySong.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E266E4A91E1383420007271B"
-            BuildableName = "Silly Song.app"
-            BlueprintName = "Silly Song"
-            ReferencedContainer = "container:Silly Song.xcodeproj">
+            BuildableName = "SillySong.app"
+            BlueprintName = "SillySong"
+            ReferencedContainer = "container:SillySong.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
